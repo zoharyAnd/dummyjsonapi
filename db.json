@@ -21,38 +21,26 @@
       "notifsms": {
         "checked":"true",
         "timings": [
-          {
-            "value":"30",
-            "units":"min"
-          },
-          {
-            "value":"2",
-            "units":"hour"
-          }
+            { "value":"30", "units":"min" },
+            { "value":"2", "units":"hour" }
         ]
       },
       "bankinfo": [
-          {
-            "type":"visa",
-            "num":"123456789"
-          },
-          {
-            "type":"paypal",
-            "num":"987654321"
-          }
+          {"type":"visa","num":"123456789"},
+          {"type":"paypal","num":"987654321"}
       ],
       "newsletter":"true",
       "social": [
-        {
-          "platform":"facebook",
-          "identification":"johndoe",
-          "allowed":"true",
-        },
-        {
-          "platform":"instagram",
-          "identification":"johndoe93",
-          "allowed":"false",
-        }
+            {
+              "platform":"facebook",
+              "identification":"johndoe",
+              "allowed":"true"
+            },
+            {
+              "platform":"instagram",
+              "identification":"johndoe93",
+              "allowed":"false"
+            }
       ]
     }
   ],
