@@ -21,26 +21,40 @@
       "notifsms": {
         "checked":"true",
         "timings": [
-            { "value":"30", "units":"min" },
-            { "value":"2", "units":"hour" }
+            { "value":"30", "units":"Minutes" },
+            { "value":"2", "units":"Hours" }
         ]
       },
       "bankinfo": [
-          {"type":"visa","num":"123456789"},
-          {"type":"paypal","num":"987654321"}
+        {
+          "title": "Invoice#123456",
+          "status": "PAID"
+        },
+        {
+          "title": "Invoice#789456",
+          "status": "UNPAID"
+        },
+        {
+          "title": "Invoice#789477",
+          "status": "PAID"
+        },
+        {
+          "title": "Invoice#789477",
+          "status": "PAID"
+        }
       ],
       "newsletter":"true",
       "social": [
-            {
-              "platform":"facebook",
-              "identification":"johndoe",
-              "allowed":"true"
-            },
-            {
-              "platform":"instagram",
-              "identification":"johndoe93",
-              "allowed":"false"
-            }
+        {
+          "platform": "Facebook",
+          "icon": "",
+          "connected": "true"
+        },
+        {
+          "platform": "Google",
+          "icon": "",
+          "connected": "false"
+        }
       ]
     }
   ],
